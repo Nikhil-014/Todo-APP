@@ -1,0 +1,28 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #263b33;
+  background: #e8f1eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f1eb 0%, #f8f2e8 100%);
+}
+
+.appTitle {
+  margin: 0 0 26px;
+  color: #c45d40;
+  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+::placeholder {
+  color: #789087;
+}

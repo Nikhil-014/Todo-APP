@@ -1,0 +1,62 @@
+.inputCont {
+  display: flex;
+  gap: 155px;
+  margin-bottom: 20px;
+}
+
+.todoName {
+  width:300px;
+  height:50px;
+  max-height: auto;
+  font-size:25px;
+  padding:5px;
+  border: 1px solid #c7d8cf;
+  border-radius: 10px;
+  background: #f4f8f5;
+  color: #263b33;
+}
+
+.todoDate {
+  width:180px;
+  height:50px;
+  font-size:25px;
+  padding:5px;
+  border: 1px solid #c7d8cf;
+  border-radius: 10px;
+  background: #f4f8f5;
+  color: #263b33;
+}
+
+.todoBtn {
+  width:100px;
+  height:60px;
+  font-size:25px;
+  padding:5px;
+  border: 0;
+  border-radius: 10px;
+  background: #2f6f5e;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.todoBtn:hover {
+  background: #245847;
+  transform: translateY(-2px);
+}
+
+.deleteBtn {
+  background: #d94f4f;
+}
+
+.deleteBtn:hover {
+  background: #b93636;
+}
+
+.todoBtn:focus-visible,
+.todoName:focus,
+.todoDate:focus {
+  outline: 3px solid #f4b860;
+  outline-offset: 2px;
+}
