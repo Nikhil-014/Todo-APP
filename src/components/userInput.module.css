@@ -1,37 +1,39 @@
 .inputCont {
   display: flex;
-  gap: 155px;
+  gap: 30px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .todoName {
-  width:300px;
-  height:50px;
-  max-height: auto;
-  font-size:25px;
-  padding:5px;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
   border: 1px solid #c7d8cf;
   border-radius: 10px;
   background: #f4f8f5;
   color: #263b33;
+  box-sizing: border-box;
 }
 
 .todoDate {
-  width:180px;
-  height:50px;
-  font-size:25px;
-  padding:5px;
+  width: 180px;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
   border: 1px solid #c7d8cf;
   border-radius: 10px;
   background: #f4f8f5;
   color: #263b33;
+  box-sizing: border-box;
 }
 
 .todoBtn {
-  width:100px;
-  height:60px;
-  font-size:25px;
-  padding:5px;
+  width: 100px;
+  height: 60px;
+  font-size: 25px;
+  padding: 5px;
   border: 0;
   border-radius: 10px;
   background: #2f6f5e;
@@ -59,4 +61,50 @@
 .todoDate:focus {
   outline: 3px solid #f4b860;
   outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .inputCont {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .todoName,
+  .todoDate,
+  .todoBtn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .todoName,
+  .todoDate {
+    font-size: 18px;
+  }
+
+  .todoBtn {
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .inputCont {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .todoName {
+    width: 100%;
+  }
+
+  .todoDate {
+    width: 100%;
+  }
+
+  .todoBtn {
+    width: 100%;
+  }
+
 }

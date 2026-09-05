@@ -26,3 +26,11 @@ body {
 ::placeholder {
   color: #789087;
 }
+
+@media (max-width: 600px) {
+  .appTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
