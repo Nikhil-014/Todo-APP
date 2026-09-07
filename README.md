@@ -1,16 +1,73 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo App built with React.js.
 
-Currently, two official plugins are available:
+This project was created to practice React concepts, state management, forms, CSS styling, responsive design, Git, GitHub, and GitHub Pages deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[View Live Todo App](https://nikhil-014.github.io/Todo-APP/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Add new todo items
+- Add due dates
+- Display todo items
+- Delete todo items
+- Responsive design
+- Mobile-friendly layout
+- Clean and simple user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- CSS
+- Vite
+- Git
+- GitHub
+- GitHub Pages
+
+## 📱 Responsive Design
+
+The Todo App is responsive and works on different screen sizes:
+
+- 💻 Desktop
+- 📱 Mobile
+- 📲 Tablet
+
+CSS media queries are used to adjust the layout for smaller screens.
+
+## 📂 Project Structure
+
+```text
+Todo-APP/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── container.jsx
+│   │   ├── container.module.css
+│   │   ├── sampleData.jsx
+│   │   ├── sampleData.module.css
+│   │   ├── userInput.jsx
+│   │   ├── userInput.module.css
+│   │   └── welcomMsg.jsx
+│   │
+│   ├── store/
+│   │   └── todo-items-store.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── eslint.config.js
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
